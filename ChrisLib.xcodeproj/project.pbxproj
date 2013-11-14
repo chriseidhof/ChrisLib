@@ -18,6 +18,7 @@
 		83B0AE6C18355FAC0081AC41 /* NSArray+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0AE6818355FAC0081AC41 /* NSArray+Extras.m */; };
 		83B0AE6D18355FAC0081AC41 /* PersistentStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0AE6918355FAC0081AC41 /* PersistentStack.m */; };
 		83B0AE70183560250081AC41 /* NSDictionary+ValueForKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0AE6F183560250081AC41 /* NSDictionary+ValueForKey.m */; };
+		83B0AE74183563170081AC41 /* FetchedResultsControllerDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B0AE73183563170081AC41 /* FetchedResultsControllerDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		83B0AE6E183560250081AC41 /* NSDictionary+ValueForKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ValueForKey.h"; sourceTree = "<group>"; };
 		83B0AE6F183560250081AC41 /* NSDictionary+ValueForKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ValueForKey.m"; sourceTree = "<group>"; };
 		83B0AE71183560820081AC41 /* DeepMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeepMap.h; sourceTree = "<group>"; };
+		83B0AE72183563170081AC41 /* FetchedResultsControllerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FetchedResultsControllerDataSource.h; sourceTree = "<group>"; };
+		83B0AE73183563170081AC41 /* FetchedResultsControllerDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FetchedResultsControllerDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 		83B0AE4118355F920081AC41 /* ChrisLib */ = {
 			isa = PBXGroup;
 			children = (
+				83B0AE72183563170081AC41 /* FetchedResultsControllerDataSource.h */,
+				83B0AE73183563170081AC41 /* FetchedResultsControllerDataSource.m */,
 				83B0AE71183560820081AC41 /* DeepMap.h */,
 				83B0AE6E183560250081AC41 /* NSDictionary+ValueForKey.h */,
 				83B0AE6F183560250081AC41 /* NSDictionary+ValueForKey.m */,
@@ -241,6 +246,7 @@
 			files = (
 				83B0AE70183560250081AC41 /* NSDictionary+ValueForKey.m in Sources */,
 				83B0AE6D18355FAC0081AC41 /* PersistentStack.m in Sources */,
+				83B0AE74183563170081AC41 /* FetchedResultsControllerDataSource.m in Sources */,
 				83B0AE6B18355FAC0081AC41 /* KeyValueObserver.m in Sources */,
 				83B0AE6C18355FAC0081AC41 /* NSArray+Extras.m in Sources */,
 			);
@@ -427,6 +433,7 @@
 				83B0AE6118355F920081AC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B0AE6218355F920081AC41 /* Build configuration list for PBXNativeTarget "ChrisLibTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +442,7 @@
 				83B0AE6418355F920081AC41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
