@@ -62,6 +62,13 @@
     return array;
 }
 
+- (id)randomObject
+{
+    NSUInteger randomIndex = arc4random() % [self count];
+    return self[randomIndex];
+}
+
+
 - (NSArray*)deepMap:(id (^)(id))block
 {
     return [self map:^id (id obj) {

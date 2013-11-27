@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.7'
 
   s.source_files = 'ChrisLib', 'ChrisLib/**/*.{h,m}'
-  s.osx.exclude_files = 'ChrisLib/FetchedResultsControllerDataSource.{h,m}'
+  s.osx.exclude_files = 'ChrisLib/FetchedResultsControllerDataSource.{h,m},ChrisLib/UIViewController*.{h,m}'
 
   s.framework  = 'CoreData'
 

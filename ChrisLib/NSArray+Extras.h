@@ -21,5 +21,6 @@ typedef NSComparisonResult(^searchBlock)(id obj);
 
 - (NSArray*)arrayByRemovingLastObject;
 - (NSArray*)arrayByRemovingObject:(id)object;
+- (id)randomObject;
 
 @end
