@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83A703A2184649B50093A75B /* UIViewController+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A703A1184649B50093A75B /* UIViewController+Keyboard.m */; };
-		83A703A5184649DF0093A75B /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A703A4184649DF0093A75B /* NSObject+AssociatedObjects.m */; };
+		8305142A1849EFFA00F7AFA5 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */; };
+		83ABA9B0184778D60054F789 /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ABA9AF184778D60054F789 /* ModelObject.m */; };
+		83ABA9BA18477B020054F789 /* NSString+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ABA9B918477B020054F789 /* NSString+Directories.m */; };
 		83B0AE4018355F920081AC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B0AE3F18355F920081AC41 /* Foundation.framework */; };
 		83B0AE4E18355F920081AC41 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B0AE4D18355F920081AC41 /* XCTest.framework */; };
 		83B0AE4F18355F920081AC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B0AE3F18355F920081AC41 /* Foundation.framework */; };
@@ -46,10 +47,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		83A703A0184649B50093A75B /* UIViewController+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Keyboard.h"; sourceTree = "<group>"; };
-		83A703A1184649B50093A75B /* UIViewController+Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Keyboard.m"; sourceTree = "<group>"; };
-		83A703A3184649DF0093A75B /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
-		83A703A4184649DF0093A75B /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
+		830514281849EFFA00F7AFA5 /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
+		830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
+		83ABA9AE184778D60054F789 /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
+		83ABA9AF184778D60054F789 /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
+		83ABA9B818477B020054F789 /* NSString+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Directories.h"; sourceTree = "<group>"; };
+		83ABA9B918477B020054F789 /* NSString+Directories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Directories.m"; sourceTree = "<group>"; };
 		83B0AE3C18355F920081AC41 /* libChrisLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChrisLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B0AE3F18355F920081AC41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		83B0AE4318355F920081AC41 /* ChrisLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChrisLib-Prefix.pch"; sourceTree = "<group>"; };
@@ -127,10 +130,8 @@
 		83B0AE4118355F920081AC41 /* ChrisLib */ = {
 			isa = PBXGroup;
 			children = (
-				83A703A3184649DF0093A75B /* NSObject+AssociatedObjects.h */,
-				83A703A4184649DF0093A75B /* NSObject+AssociatedObjects.m */,
-				83A703A0184649B50093A75B /* UIViewController+Keyboard.h */,
-				83A703A1184649B50093A75B /* UIViewController+Keyboard.m */,
+				830514281849EFFA00F7AFA5 /* DirectoryWatcher.h */,
+				830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */,
 				83B0AE72183563170081AC41 /* FetchedResultsControllerDataSource.h */,
 				83B0AE73183563170081AC41 /* FetchedResultsControllerDataSource.m */,
 				83B0AE71183560820081AC41 /* DeepMap.h */,
@@ -142,7 +143,11 @@
 				83B0AE6818355FAC0081AC41 /* NSArray+Extras.m */,
 				83B0AE6918355FAC0081AC41 /* PersistentStack.m */,
 				83B0AE6A18355FAC0081AC41 /* PersistentStack.h */,
+				83ABA9AE184778D60054F789 /* ModelObject.h */,
+				83ABA9AF184778D60054F789 /* ModelObject.m */,
 				83B0AE4218355F920081AC41 /* Supporting Files */,
+				83ABA9B818477B020054F789 /* NSString+Directories.h */,
+				83ABA9B918477B020054F789 /* NSString+Directories.m */,
 			);
 			path = ChrisLib;
 			sourceTree = "<group>";
@@ -254,13 +259,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8305142A1849EFFA00F7AFA5 /* DirectoryWatcher.m in Sources */,
+				83ABA9BA18477B020054F789 /* NSString+Directories.m in Sources */,
+				83ABA9B0184778D60054F789 /* ModelObject.m in Sources */,
 				83B0AE70183560250081AC41 /* NSDictionary+ValueForKey.m in Sources */,
 				83B0AE6D18355FAC0081AC41 /* PersistentStack.m in Sources */,
 				83B0AE74183563170081AC41 /* FetchedResultsControllerDataSource.m in Sources */,
 				83B0AE6B18355FAC0081AC41 /* KeyValueObserver.m in Sources */,
-				83A703A5184649DF0093A75B /* NSObject+AssociatedObjects.m in Sources */,
 				83B0AE6C18355FAC0081AC41 /* NSArray+Extras.m in Sources */,
-				83A703A2184649B50093A75B /* UIViewController+Keyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
