@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8305142A1849EFFA00F7AFA5 /* DirectoryWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */; };
+		83991364187ED3B70042F7AF /* NSObject+Properties.m in Sources */ = {isa = PBXBuildFile; fileRef = 83991362187ED3B70042F7AF /* NSObject+Properties.m */; };
 		83ABA9B0184778D60054F789 /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ABA9AF184778D60054F789 /* ModelObject.m */; };
 		83ABA9BA18477B020054F789 /* NSString+Directories.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ABA9B918477B020054F789 /* NSString+Directories.m */; };
 		83B0AE4018355F920081AC41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B0AE3F18355F920081AC41 /* Foundation.framework */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		830514281849EFFA00F7AFA5 /* DirectoryWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryWatcher.h; sourceTree = "<group>"; };
 		830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryWatcher.m; sourceTree = "<group>"; };
+		83991362187ED3B70042F7AF /* NSObject+Properties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Properties.m"; sourceTree = "<group>"; };
+		83991363187ED3B70042F7AF /* NSObject+Properties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Properties.h"; sourceTree = "<group>"; };
 		83ABA9AE184778D60054F789 /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
 		83ABA9AF184778D60054F789 /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
 		83ABA9B818477B020054F789 /* NSString+Directories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Directories.h"; sourceTree = "<group>"; };
@@ -130,6 +133,8 @@
 		83B0AE4118355F920081AC41 /* ChrisLib */ = {
 			isa = PBXGroup;
 			children = (
+				83991362187ED3B70042F7AF /* NSObject+Properties.m */,
+				83991363187ED3B70042F7AF /* NSObject+Properties.h */,
 				830514281849EFFA00F7AFA5 /* DirectoryWatcher.h */,
 				830514291849EFFA00F7AFA5 /* DirectoryWatcher.m */,
 				83B0AE72183563170081AC41 /* FetchedResultsControllerDataSource.h */,
@@ -264,6 +269,7 @@
 				83ABA9B0184778D60054F789 /* ModelObject.m in Sources */,
 				83B0AE70183560250081AC41 /* NSDictionary+ValueForKey.m in Sources */,
 				83B0AE6D18355FAC0081AC41 /* PersistentStack.m in Sources */,
+				83991364187ED3B70042F7AF /* NSObject+Properties.m in Sources */,
 				83B0AE74183563170081AC41 /* FetchedResultsControllerDataSource.m in Sources */,
 				83B0AE6B18355FAC0081AC41 /* KeyValueObserver.m in Sources */,
 				83B0AE6C18355FAC0081AC41 /* NSArray+Extras.m in Sources */,

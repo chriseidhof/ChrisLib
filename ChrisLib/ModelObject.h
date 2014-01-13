@@ -3,8 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@import CoreData;
+#import <CoreData/CoreData.h>
 
 @interface ModelObject : NSManagedObject
 
