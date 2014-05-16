@@ -7,6 +7,8 @@
 @interface NSObject (Properties)
 
 - (NSArray*)propertyNames;
-- (void)copyAllPropertiesTo:(id)copy;
+- (NSArray *)writablePropertyNames;
+- (BOOL)hasEqualPropertiesTo:(id)otherObject;
+- (NSUInteger)hashProperties;
 
 @end
